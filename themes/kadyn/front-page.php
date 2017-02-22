@@ -17,10 +17,10 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-   <header>
+   <!--<header>
        <h1 class="myName">Kadyn Neale</h1>
        <h3>A <img class="redHeader" src="<?php echo get_template_directory_uri()?> /assets/red_logo.png" alt="red academy"> Alumuni</h3>
-   </header>
+   </header>-->
    <body>
        <section class="creativity">
            <div class="thoughts">
@@ -29,6 +29,23 @@ get_header(); ?>
            </div>
            <div class="kadyn">
                <img class="kadynSelfie" src="<?php echo get_template_directory_uri()?>/assets/kadyn_selfie.jpg" alt="picture of a glance upwards">
+           </div>
+       </section>
+       <section>
+           <div class="projectDisplay">
+               <h1>Aloha</h1>
+           </div>
+           <div class="projectDisplay">
+               <h1>InstaNews</h1>
+           </div>
+           <div class="projectDisplay">
+               <h1>Pong</h1>
+           </div>
+           <div class="projectDisplay">
+               <h1>Mars Colony</h1>
+           </div>
+           <div class="projectDisplay">
+               <h1>Mountain Health</h1>
            </div>
        </section>
    </body>
