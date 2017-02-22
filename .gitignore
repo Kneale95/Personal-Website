@@ -1,0 +1,7 @@
+/*
+!.gitignore
+!readme.md
+!/themes
+/themes/*
+!/themes/kadyn/
+themes/kadyn/node_modules
