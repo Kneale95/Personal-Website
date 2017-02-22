@@ -31,7 +31,7 @@ get_header(); ?>
                <img class="kadynSelfie" src="<?php echo get_template_directory_uri()?>/assets/kadyn_selfie.jpg" alt="picture of a glance upwards">
            </div>
        </section>
-       <section>
+       <section class="projects">
            <div class="projectDisplay">
                <h1>Aloha</h1>
            </div>
