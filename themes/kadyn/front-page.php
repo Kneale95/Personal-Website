@@ -17,36 +17,48 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-   <!--<header>
-       <h1 class="myName">Kadyn Neale</h1>
-       <h3>A <img class="redHeader" src="<?php echo get_template_directory_uri()?> /assets/red_logo.png" alt="red academy"> Alumuni</h3>
-   </header>-->
+   <header>
+        <div class="title">
+            <h1 class="myName">Kadyn Neale</h1>
+            <h3>A <img class="redHeader" src="<?php echo get_template_directory_uri()?> /assets/red_logo.png" alt="red academy"> Alumuni</h3>
+        </div>
+   </header>
    <body>
        <section class="creativity">
            <div class="thoughts">
-               <img class="thoughtBubble" src="<?php echo get_template_directory_uri()?>/assets/thought_bubble.gif" alt="A thought bubble">
-               <img class="thoughtBubble" src="<?php echo get_template_directory_uri()?>/assets/thought_bubble.gif" alt="A thought bubble">
+               <img class="thoughtBubble" src="<?php echo get_template_directory_uri()?>/assets/thought_bubble.png" alt="A thought bubble">
+                    <h2>Pick a thought to navagate!</h2>
+               <img class="thoughtBubble" src="<?php echo get_template_directory_uri()?>/assets/thought_bubble.png" alt="A thought bubble">
            </div>
            <div class="kadyn">
                <img class="kadynSelfie" src="<?php echo get_template_directory_uri()?>/assets/kadyn_selfie.jpg" alt="picture of a glance upwards">
            </div>
        </section>
        <section class="projects">
+           <h2 class="projectsTitle">My Projects</h2>
            <div class="projectDisplay">
-               <h1>Aloha</h1>
+               <h2>Aloha</h1>
+               <img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website">
            </div>
            <div class="projectDisplay">
-               <h1>InstaNews</h1>
+               <h2>InstaNews</h1>
+               <img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website">
            </div>
            <div class="projectDisplay">
-               <h1>Pong</h1>
+               <h2>Pong</h1>
+               <img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website">
            </div>
            <div class="projectDisplay">
-               <h1>Mars Colony</h1>
+               <h2>Mars Colony</h1>
+               <img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website">
            </div>
            <div class="projectDisplay">
-               <h1>Mountain Health</h1>
+               <h2>Mountain Health</h1>
+               <a href="mth.academy.red"><img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website"></a>
            </div>
+       </section>
+       <section class="aboutMe">
+           <h2>Bio</h2>
        </section>
    </body>
 </html>

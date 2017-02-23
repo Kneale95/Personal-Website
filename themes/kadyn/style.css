@@ -320,17 +320,33 @@ body {
   max-width: 1920px; }
 
 header {
-  text-align: center; }
+  text-align: center;
+  margin: 0 auto;
+  background-color: darkred;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
   header h1 {
     font-size: 4rem;
-    margin-bottom: .25rem; }
+    margin-bottom: .25rem;
+    margin-top: 0; }
+
+header .title {
+  background-color: white;
+  width: 500px;
+  margin-top: 20px;
+  border: 3px solid black; }
+  header .title h3 {
+    margin: 0; }
 
 .redHeader {
   width: 100px;
   height: 20px; }
 
 .creativity {
-  height: 100vh; }
+  height: 100vh;
+  background-color: darkred; }
 
 .kadyn {
   display: -ms-flexbox;
@@ -346,7 +362,9 @@ header {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
   .thoughts .thoughtBubble {
     width: 20%;
     height: 20%; }
@@ -356,12 +374,25 @@ header {
 .projects .projectDisplay {
   width: 100%;
   height: 300px;
-  background-color: black;
+  background-color: grey;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
       align-items: center;
   margin-top: 5px;
   margin-bottom: 5px; }
-  .projects .projectDisplay h1 {
-    margin: .5rem; }
+  .projects .projectDisplay h2 {
+    margin: .5rem;
+    color: black; }
+
+.projects .projectsTitle {
+  text-align: center; }
+
+.projects .projectImage {
+  border: 3px solid black;
+  margin-left: 30px;
+  height: 150px;
+  width: 250px; }
+
+.aboutMe h2 {
+  text-align: center; }
