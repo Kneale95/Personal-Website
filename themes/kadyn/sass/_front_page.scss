@@ -49,19 +49,45 @@ header{
     height: 100vh;
     background-color:darkred;
     padding-top: 154px;
+    display: flex;
+    justify-content: center;
+    .introText{
+        width: 25%;
+        height: 325px;
+        text-align: center;
+        background-color: darkorange;
+        border-top:3px solid black;
+        border-bottom: 3px solid black;
+    }
+
+}
+
+.creativity{
+    .introText:first-child{
+        border-left: 3px solid black;
+    }
+}
+
+.creativity{
+    .introText:last-child{
+        border-right: 3px solid black;
+    }
 }
 
 // Self looking up
 .kadyn{
     display: flex;
     justify-content: center;
+    width: 25%;
+    height: 710px;
 
     .kadynSelfie{
-        height: 15%;
-        width:15%;
+        height: 100%;
+        width:100%;
         border: 3px solid black;
     }
 }
+
 
 // Thought bubbles
 .thoughts{

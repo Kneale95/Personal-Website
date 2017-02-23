@@ -355,16 +355,35 @@ header .menu {
 .creativity {
   height: 100vh;
   background-color: darkred;
-  padding-top: 154px; }
+  padding-top: 154px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .creativity .introText {
+    width: 25%;
+    height: 325px;
+    text-align: center;
+    background-color: darkorange;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black; }
+
+.creativity .introText:first-child {
+  border-left: 3px solid black; }
+
+.creativity .introText:last-child {
+  border-right: 3px solid black; }
 
 .kadyn {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  width: 25%;
+  height: 710px; }
   .kadyn .kadynSelfie {
-    height: 15%;
-    width: 15%;
+    height: 100%;
+    width: 100%;
     border: 3px solid black; }
 
 .thoughts {
