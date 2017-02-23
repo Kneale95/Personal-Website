@@ -51,23 +51,33 @@ get_header(); ?>
        <section class="projects">
            <h2 class="projectsTitle">My Projects</h2>
            <div class="projectDisplay">
-               <h2>Aloha</h1>
+               <div class="projectTitles">
+                    <h2>Aloha</h1>
+               </div>
+               <img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/aloha_screen.png" alt="image of aloha website">
+           </div>
+           <div class="projectDisplay">
+               <div class="projectTitles">
+                    <h2>InstaNews</h1>
+               </div>
+               <img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/instanews_screen.png" alt="image of instanews website">
+           </div>
+           <div class="projectDisplay">
+               <div class="projectTitles">
+                    <h2>Pong</h1>
+               </div>
+               <img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/pong_screen.png" alt="image of pong website">
+           </div>
+           <div class="projectDisplay">
+               <div class="projectTitles">
+                    <h2>Colony App</h1>
+               </div>
                <img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website">
            </div>
            <div class="projectDisplay">
-               <h2>InstaNews</h1>
-               <img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website">
-           </div>
-           <div class="projectDisplay">
-               <h2>Pong</h1>
-               <img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website">
-           </div>
-           <div class="projectDisplay">
-               <h2>Mars Colony</h1>
-               <img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website">
-           </div>
-           <div class="projectDisplay">
-               <h2>Mountain Health</h1>
+               <div class="projectTitles">
+                    <h2>Mountain Health</h1>
+               </div>
                <a href="mth.academy.red"><img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website"></a>
            </div>
        </section>
