@@ -18,9 +18,17 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
    <header>
+        <div class="menu">
+            <h3>Projects</h3>
+            <h3>Bio</h3>
+        </div>
         <div class="title">
             <h1 class="myName">Kadyn Neale</h1>
             <h3>A <img class="redHeader" src="<?php echo get_template_directory_uri()?> /assets/red_logo.png" alt="red academy"> Alumuni</h3>
+        </div>
+        <div class="secondMenu menu">
+            <h3>Contact Me</h3>
+            <h3>Interesting Links</h3>
         </div>
    </header>
    <body>

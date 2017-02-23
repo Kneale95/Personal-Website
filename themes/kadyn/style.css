@@ -325,8 +325,10 @@ header {
   background-color: darkred;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center; }
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  border: 2px solid black; }
   header h1 {
     font-size: 4rem;
     margin-bottom: .25rem;
@@ -334,11 +336,17 @@ header {
 
 header .title {
   background-color: white;
-  width: 500px;
-  margin-top: 20px;
+  width: 25%;
   border: 3px solid black; }
   header .title h3 {
     margin: 0; }
+
+header .menu {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 37.5%; }
 
 .redHeader {
   width: 100px;
@@ -346,7 +354,8 @@ header .title {
 
 .creativity {
   height: 100vh;
-  background-color: darkred; }
+  background-color: darkred;
+  padding-top: 154px; }
 
 .kadyn {
   display: -ms-flexbox;

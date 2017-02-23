@@ -1,5 +1,5 @@
 {
-  "name": "Kadyn",
+  "name": "kadyn neale",
   "version": "1.0.0",
   "description": "Kadyn Neale's personal theme.",
   "main": "gulpfile.js",
@@ -30,7 +30,7 @@
     "type": "git",
     "url": "git+https://github.com/redacademy/redstarter.git"
   },
-  "author": "kadyn",
+  "author": "Kadyn",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kneale95/issues"
