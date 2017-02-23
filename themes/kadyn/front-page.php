@@ -79,7 +79,7 @@ get_header(); ?>
                <div class="projectTitles">
                     <h2>InstaNews</h1>
                </div>
-               <a href="https://kneale95.github.io/Instanews/"<img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/instanews_screen.png" alt="image of instanews website"></a>
+               <a href="https://kneale95.github.io/Instanews/"><img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/instanews_screen.png" alt="image of instanews website"></a>
            </div>
            <div class="projectDisplay">
                <div class="projectTitles">
