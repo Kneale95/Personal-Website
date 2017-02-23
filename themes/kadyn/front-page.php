@@ -40,7 +40,7 @@ get_header(); ?>
                             <p>Hi there! My name is Kadyn, and I am a web developer. Welcome to my website, its purpose is to promote and showcase myself. I may not be a designer but I hope you enjoy your time here</p>
                         </div>
                         <div class="introCheckout">
-                            <a href="#"><h2>My GitHub!</h2></a>
+                            <a href="https://github.com/Kneale95"><h2>My GitHub!</h2></a>
                         </div>
                 </div>
                 <div class="kadyn">
@@ -60,7 +60,7 @@ get_header(); ?>
                             </ul>
                         </div>
                         <div class="introCheckout">
-                            <a href="#"><h2>Check out RED!</h2></a>
+                            <a href="https://www.redacademy.com/"><h2>Check out RED!</h2></a>
                         </div>
                 </div>
            </div>
@@ -73,31 +73,31 @@ get_header(); ?>
                <div class="projectTitles">
                     <h2>Aloha</h1>
                </div>
-               <img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/aloha_screen.png" alt="image of aloha website">
+               <a href="https://kneale95.github.io/Aloha/"><img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/aloha_screen.png" alt="image of aloha website"></a>
            </div>
            <div class="projectDisplay">
                <div class="projectTitles">
                     <h2>InstaNews</h1>
                </div>
-               <img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/instanews_screen.png" alt="image of instanews website">
+               <a href="https://kneale95.github.io/Instanews/"<img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/instanews_screen.png" alt="image of instanews website"></a>
            </div>
            <div class="projectDisplay">
                <div class="projectTitles">
                     <h2>Pong</h1>
                </div>
-               <img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/pong_screen.png" alt="image of pong website">
+               <a href="https://kneale95.github.io/Pong-Game/"><img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/pong_screen.png" alt="image of pong website"></a>
            </div>
            <div class="projectDisplay">
                <div class="projectTitles">
                     <h2>Colony App</h1>
                </div>
-               <img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website">
+               <a href="https://kneale95.github.io/Mars-Colony/"><img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website"></a>
            </div>
            <div class="projectDisplay">
                <div class="projectTitles">
                     <h2>Mountain Health</h1>
                </div>
-               <a href="mth.academy.red"><img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website"></a>
+               <a href="http://mht.academy.red/"><img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website"></a>
            </div>
        </section>
 
