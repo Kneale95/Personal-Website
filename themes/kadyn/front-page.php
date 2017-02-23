@@ -19,45 +19,54 @@ get_header(); ?>
 
    <header>
         <div class="menu">
-            <h3>Projects</h3>
-            <h3>Bio</h3>
+            <a href="#"><h3>Projects</h3></a>
+            <a href="#"><h3>Bio</h3></a>
         </div>
         <div class="title">
             <h1 class="myName">Kadyn Neale</h1>
             <h3>A <img class="redHeader" src="<?php echo get_template_directory_uri()?> /assets/red_logo.png" alt="red academy"> Alumuni</h3>
         </div>
         <div class="secondMenu menu">
-            <h3>Contact Me</h3>
-            <h3>Interesting Links</h3>
+            <a href="#"><h3>Contact Me</h3></a>
+            <a href="#"><h3>Interesting Links</h3></a>
         </div>
    </header>
+
    <body>
        <section class="creativity">
-           <!--<div class="thoughts">
-               <img class="thoughtBubble" src="<?php echo get_template_directory_uri()?>/assets/thought_bubble.png" alt="A thought bubble">
-                    <h2>Pick a thought to navagate!</h2>
-               <img class="thoughtBubble" src="<?php echo get_template_directory_uri()?>/assets/thought_bubble.png" alt="A thought bubble">
-           </div>-->
-           <div class="introSide">
-                <div class="introText">
-                    <p>Hi there! My name is Kadyn, and I am a web developer. Welcome to my website, its purpose is to promote and showcase myself. I may not be a designer but I hope you enjoy your time here</p>
+           <div class="introArea">
+                <div class="introSide">
+                        <div class="introText introFirst">
+                            <p>Hi there! My name is Kadyn, and I am a web developer. Welcome to my website, its purpose is to promote and showcase myself. I may not be a designer but I hope you enjoy your time here</p>
+                        </div>
+                        <div class="introCheckout">
+                            <a href="#"><h2>My GitHub!</h2></a>
+                        </div>
                 </div>
-                <div class="introCheckout">
-                    <h2>My GitHub!</h2>
+                <div class="kadyn">
+                    <img class="kadynSelfie" src="<?php echo get_template_directory_uri()?>/assets/kadyn_selfie.jpg" alt="picture of a glance upwards">
+                </div>
+                <div class="introSide">
+                        <div class="introText introSecond">
+                            <h2>Some skills I am trained in....</h2>
+                            <ul>
+                                <li>HTML/HTML5</li>
+                                <li>CSS/CSS3</li>
+                                <li>JavaScript/ES2015</li>
+                                <li>JQuery</li>
+                                <li>WordPress</li>
+                                <li>Gulp</li>
+                                <li>Angular</li>
+                            </ul>
+                        </div>
+                        <div class="introCheckout">
+                            <a href="#"><h2>Check out RED!</h2></a>
+                        </div>
                 </div>
            </div>
-           <div class="kadyn">
-               <img class="kadynSelfie" src="<?php echo get_template_directory_uri()?>/assets/kadyn_selfie.jpg" alt="picture of a glance upwards">
-           </div>
-           <div class="introSide">
-                <div class="introText introSecond">
-                    <h2>Some skills I am trained in....</h2>
-                </div>
-                <div class="introCheckout">
-                    <h2>Check out RED!</h2>
-                </div>
-           </div>
+           <img class="downArrow" src="<?php echo get_template_directory_uri()?>/assets/down_arrow.png" alt="picture of down arrow">
        </section>
+
        <section class="projects">
            <h2 class="projectsTitle">My Projects</h2>
            <div class="projectDisplay">
@@ -91,6 +100,7 @@ get_header(); ?>
                <a href="mth.academy.red"><img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website"></a>
            </div>
        </section>
+
        <section class="aboutMe">
            <h2>Bio</h2>
        </section>

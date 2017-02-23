@@ -3,6 +3,10 @@ body{
     
 }
 
+a{
+    text-decoration: none;
+}
+
 header{
     text-align: center;
     margin: 0 auto;
@@ -39,9 +43,16 @@ header{
        justify-content: space-around;
        align-items: center;
        width: 37.5%;
-       h3{
+
+       a{
            color:$body_font;
        }
+    }
+}
+
+.menu{
+    a:hover{
+        color: $main_color_three;
     }
 }
     .redHeader{
@@ -54,8 +65,9 @@ header{
     height: 100vh;
     background-color:#0E0A18;
     padding-top: 154px;
-    display: flex;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
     .introText{
         width: 100%;
         height: 325px;
@@ -63,20 +75,30 @@ header{
         background-color: #4916F7;
         border-top:3px solid #E8DFE0;
         border-bottom: 3px solid #E8DFE0;
-        p,h2{
+        p,h2,ul{
             color: #E8DFE0;
         }
     }
 
 }
+.introArea{
+    display: flex;
+    justify-content: center;
 
+}
+
+.downArrow{
+    position: absolute;
+    left: 47.5%;
+}
 .creativity{
     .introSide{
         width: 25%;
+        height: 710px;
     }
 }
 .creativity{
-    .introText:first-child{
+    .introFirst{
         border-left: 3px solid #E8DFE0;
         display: flex;
         align-items: center;
@@ -86,6 +108,11 @@ header{
 .creativity{
     .introSecond{
         border-right: 3px solid #E8DFE0;
+        ul{
+            line-height: 2;
+            list-style: none;
+            margin: 0 auto;
+        }
     }
 }
 
@@ -105,14 +132,20 @@ header{
 }
 
 .introCheckout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: red;
     width: 35%;
+    height: 75px;
     text-align: center;
     margin-top: 30%;
     margin-left: 35%;
     border-radius: 10px;
     color:white;
-
+    a{
+        color:$main_color_three;
+    }
 }
 
 // Projects Area

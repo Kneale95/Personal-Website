@@ -319,6 +319,9 @@ textarea {
 body {
   max-width: 1920px; }
 
+a {
+  text-decoration: none; }
+
 header {
   text-align: center;
   margin: 0 auto;
@@ -350,8 +353,11 @@ header .menu {
   -ms-flex-align: center;
       align-items: center;
   width: 37.5%; }
-  header .menu h3 {
+  header .menu a {
     color: white; }
+
+.menu a:hover {
+  color: #E8DFE0; }
 
 .redHeader {
   width: 100px;
@@ -361,10 +367,9 @@ header .menu {
   height: 100vh;
   background-color: #0E0A18;
   padding-top: 154px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center; }
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }
   .creativity .introText {
     width: 100%;
     height: 325px;
@@ -372,13 +377,24 @@ header .menu {
     background-color: #4916F7;
     border-top: 3px solid #E8DFE0;
     border-bottom: 3px solid #E8DFE0; }
-    .creativity .introText p, .creativity .introText h2 {
+    .creativity .introText p, .creativity .introText h2, .creativity .introText ul {
       color: #E8DFE0; }
 
-.creativity .introSide {
-  width: 25%; }
+.introArea {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
 
-.creativity .introText:first-child {
+.downArrow {
+  position: absolute;
+  left: 47.5%; }
+
+.creativity .introSide {
+  width: 25%;
+  height: 710px; }
+
+.creativity .introFirst {
   border-left: 3px solid #E8DFE0;
   display: -ms-flexbox;
   display: flex;
@@ -387,6 +403,10 @@ header .menu {
 
 .creativity .introSecond {
   border-right: 3px solid #E8DFE0; }
+  .creativity .introSecond ul {
+    line-height: 2;
+    list-style: none;
+    margin: 0 auto; }
 
 .kadyn {
   display: -ms-flexbox;
@@ -402,13 +422,22 @@ header .menu {
     border: 3px solid #E8DFE0; }
 
 .introCheckout {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   background-color: red;
   width: 35%;
+  height: 75px;
   text-align: center;
   margin-top: 30%;
   margin-left: 35%;
   border-radius: 10px;
   color: white; }
+  .introCheckout a {
+    color: #E8DFE0; }
 
 .projects .projectDisplay {
   width: 100%;
