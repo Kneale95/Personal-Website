@@ -38,14 +38,24 @@ get_header(); ?>
                     <h2>Pick a thought to navagate!</h2>
                <img class="thoughtBubble" src="<?php echo get_template_directory_uri()?>/assets/thought_bubble.png" alt="A thought bubble">
            </div>-->
-           <div class="introText">
-               <p>Hi there! My name is Kadyn, and I am a web developer. Welcome to my website, its purpose is to promote and showcase myself. I may not be a designer but I hope you enjoy your time here</p>
+           <div class="introSide">
+                <div class="introText">
+                    <p>Hi there! My name is Kadyn, and I am a web developer. Welcome to my website, its purpose is to promote and showcase myself. I may not be a designer but I hope you enjoy your time here</p>
+                </div>
+                <div class="introCheckout">
+                    <h2>My GitHub!</h2>
+                </div>
            </div>
            <div class="kadyn">
                <img class="kadynSelfie" src="<?php echo get_template_directory_uri()?>/assets/kadyn_selfie.jpg" alt="picture of a glance upwards">
            </div>
-           <div class="introText">
-               <h2>Some skills I am trained in....</h2>
+           <div class="introSide">
+                <div class="introText introSecond">
+                    <h2>Some skills I am trained in....</h2>
+                </div>
+                <div class="introCheckout">
+                    <h2>Check out RED!</h2>
+                </div>
            </div>
        </section>
        <section class="projects">

@@ -37,6 +37,7 @@ header{
     .menu{
        display: flex;
        justify-content: space-around;
+       align-items: center;
        width: 37.5%;
        h3{
            color:$body_font;
@@ -56,7 +57,7 @@ header{
     display: flex;
     justify-content: center;
     .introText{
-        width: 25%;
+        width: 100%;
         height: 325px;
         text-align: center;
         background-color: #4916F7;
@@ -70,13 +71,20 @@ header{
 }
 
 .creativity{
+    .introSide{
+        width: 25%;
+    }
+}
+.creativity{
     .introText:first-child{
         border-left: 3px solid #E8DFE0;
+        display: flex;
+        align-items: center;
     }
 }
 
 .creativity{
-    .introText:last-child{
+    .introSecond{
         border-right: 3px solid #E8DFE0;
     }
 }
@@ -96,21 +104,15 @@ header{
     }
 }
 
+.introCheckout{
+    background-color: red;
+    width: 35%;
+    text-align: center;
+    margin-top: 30%;
+    margin-left: 35%;
+    border-radius: 10px;
+    color:white;
 
-// Thought bubbles
-.thoughts{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-.thoughtBubble{
-    width:20%;
-    height:20%;
-}
-
-.thoughtBubble:first-child{
-    transform: scaleX(-1);
-}
 }
 
 // Projects Area
@@ -138,6 +140,8 @@ header{
         text-align: center;
         background-color: $main_color_four;
         border:2px solid black;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
     }
 }
 
@@ -156,6 +160,11 @@ header{
     }
 }
 
+.projects{
+    .projectImage:hover{
+        border: 6px solid $main_color_three;
+    }
+}
 //Bio
 
 .aboutMe{

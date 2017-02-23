@@ -347,6 +347,8 @@ header .menu {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
   width: 37.5%; }
   header .menu h3 {
     color: white; }
@@ -364,7 +366,7 @@ header .menu {
   -ms-flex-pack: center;
       justify-content: center; }
   .creativity .introText {
-    width: 25%;
+    width: 100%;
     height: 325px;
     text-align: center;
     background-color: #4916F7;
@@ -373,10 +375,17 @@ header .menu {
     .creativity .introText p, .creativity .introText h2 {
       color: #E8DFE0; }
 
-.creativity .introText:first-child {
-  border-left: 3px solid #E8DFE0; }
+.creativity .introSide {
+  width: 25%; }
 
-.creativity .introText:last-child {
+.creativity .introText:first-child {
+  border-left: 3px solid #E8DFE0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.creativity .introSecond {
   border-right: 3px solid #E8DFE0; }
 
 .kadyn {
@@ -392,18 +401,14 @@ header .menu {
     width: 100%;
     border: 3px solid #E8DFE0; }
 
-.thoughts {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center; }
-  .thoughts .thoughtBubble {
-    width: 20%;
-    height: 20%; }
-  .thoughts .thoughtBubble:first-child {
-    transform: scaleX(-1); }
+.introCheckout {
+  background-color: red;
+  width: 35%;
+  text-align: center;
+  margin-top: 30%;
+  margin-left: 35%;
+  border-radius: 10px;
+  color: white; }
 
 .projects .projectDisplay {
   width: 100%;
@@ -423,7 +428,9 @@ header .menu {
   width: 200px;
   text-align: center;
   background-color: #A33ACB;
-  border: 2px solid black; }
+  border: 2px solid black;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px; }
 
 .projects .projectsTitle {
   text-align: center; }
@@ -433,6 +440,9 @@ header .menu {
   margin-left: 30px;
   height: 150px;
   width: 250px; }
+
+.projects .projectImage:hover {
+  border: 6px solid #E8DFE0; }
 
 .aboutMe h2 {
   text-align: center; }
