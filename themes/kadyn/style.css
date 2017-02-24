@@ -439,19 +439,32 @@ header .menu {
   .introCheckout a {
     color: #E8DFE0; }
 
-.projects .projectDisplay {
-  width: 100%;
-  height: 300px;
-  background-color: #0E0A18;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  margin-top: 5px;
-  margin-bottom: 5px; }
-  .projects .projectDisplay h2 {
-    margin: .5rem;
-    color: white; }
+.introCheckout:hover {
+  background-color: white;
+  color: black;
+  border-color: white; }
+  .introCheckout:hover a:hover {
+    color: #0E0A18; }
+
+.projects {
+  background-color: #4916F7; }
+  .projects .projectDisplay {
+    width: 100%;
+    height: 300px;
+    background-color: #0E0A18;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+    .projects .projectDisplay h2 {
+      margin: .5rem;
+      color: white; }
+
+.projects h2 {
+  margin: 0;
+  color: #E8DFE0; }
 
 .projects .projectTitles {
   width: 200px;
@@ -473,5 +486,17 @@ header .menu {
 .projects .projectImage:hover {
   border: 6px solid #E8DFE0; }
 
-.aboutMe h2 {
-  text-align: center; }
+.projects .projectBody {
+  width: 60%;
+  background-color: #4916F7;
+  border: 3px solid #E8DFE0;
+  height: 150px;
+  margin-left: 40px; }
+
+.aboutMe {
+  background-color: #4916F7;
+  height: 600px; }
+  .aboutMe h2 {
+    color: #E8DFE0;
+    text-align: center;
+    margin: 0; }

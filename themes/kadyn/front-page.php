@@ -74,30 +74,45 @@ get_header(); ?>
                     <h2>Aloha</h1>
                </div>
                <a href="https://kneale95.github.io/Aloha/"><img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/aloha_screen.png" alt="image of aloha website"></a>
+               <div class="projectBody">
+                   
+               </div>
            </div>
            <div class="projectDisplay">
                <div class="projectTitles">
                     <h2>InstaNews</h1>
                </div>
                <a href="https://kneale95.github.io/Instanews/"><img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/instanews_screen.png" alt="image of instanews website"></a>
+               <div class="projectBody">
+                   
+               </div>
            </div>
            <div class="projectDisplay">
                <div class="projectTitles">
                     <h2>Pong</h1>
                </div>
                <a href="https://kneale95.github.io/Pong-Game/"><img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/pong_screen.png" alt="image of pong website"></a>
+               <div class="projectBody">
+                   
+               </div>
            </div>
            <div class="projectDisplay">
                <div class="projectTitles">
                     <h2>Colony App</h1>
                </div>
                <a href="https://kneale95.github.io/Mars-Colony/"><img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website"></a>
+               <div class="projectBody">
+                   
+               </div>
            </div>
            <div class="projectDisplay">
                <div class="projectTitles">
                     <h2>Mountain Health</h1>
                </div>
                <a href="http://mht.academy.red/"><img class="projectImage" src="<?php echo get_template_directory_uri()?>/assets/mountain_health_screen.png" alt="image of mountain health website"></a>
+               <div class="projectBody">
+                   
+               </div>
            </div>
        </section>
 
