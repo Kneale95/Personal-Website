@@ -228,11 +228,52 @@ header{
 //Bio
 
 .aboutMe{
-    background-color: $main_color_one;
-    height: 600px;
+    background-color: $main_color_two;
     h2{
     color: $main_color_three;
     text-align: center;
     margin:0;
+    }
+}
+
+.bioMain{
+    display: flex;
+}
+.bioPic{
+    width: 25%;
+    height: 710px;
+    border: 3px solid $main_color_three;
+}
+
+.bioBody{
+    height: 710px;
+    width: 50%;
+    background-color: $main_color_one;
+    border-top: 3px solid $main_color_three;
+    border-right: 3px solid $main_color_three;
+    border-bottom: 3px solid $main_color_three;
+
+}
+//Contact Me
+
+.contactMe{
+    text-align: center;
+    height: 600px;
+    color: $main_color_three;
+    background-color: $main_color_two;
+    h2{
+        margin: 0;
+    }
+}
+
+//Interesting Links
+
+.outLinks{
+    text-align: center;
+    height: 600px;
+    color: $main_color_three;
+    background-color: $main_color_two;
+    h2{
+        margin: 0;
     }
 }

@@ -118,6 +118,18 @@ get_header(); ?>
 
        <section class="aboutMe">
            <h2>Bio</h2>
+           <div class="bioMain">
+           <img class="bioPic" src="<?php echo get_template_directory_uri()?>/assets/kadyn_outdoors.jpg" alt="image of me outside">
+           <div class="bioBody">
+               
+           </div>
+           </div>
+       </section>
+       <section class="contactMe">
+           <h2>Contact Me!</h2>
+       </section>
+       <section class="outLinks">
+           <h2>Check Out These Other Places!</h2>
        </section>
    </body>
 </html>

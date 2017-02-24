@@ -494,9 +494,41 @@ header .menu {
   margin-left: 40px; }
 
 .aboutMe {
-  background-color: #4916F7;
-  height: 600px; }
+  background-color: #0E0A18; }
   .aboutMe h2 {
     color: #E8DFE0;
     text-align: center;
+    margin: 0; }
+
+.bioMain {
+  display: -ms-flexbox;
+  display: flex; }
+
+.bioPic {
+  width: 25%;
+  height: 710px;
+  border: 3px solid #E8DFE0; }
+
+.bioBody {
+  height: 710px;
+  width: 50%;
+  background-color: #4916F7;
+  border-top: 3px solid #E8DFE0;
+  border-right: 3px solid #E8DFE0;
+  border-bottom: 3px solid #E8DFE0; }
+
+.contactMe {
+  text-align: center;
+  height: 600px;
+  color: #E8DFE0;
+  background-color: #0E0A18; }
+  .contactMe h2 {
+    margin: 0; }
+
+.outLinks {
+  text-align: center;
+  height: 600px;
+  color: #E8DFE0;
+  background-color: #0E0A18; }
+  .outLinks h2 {
     margin: 0; }
