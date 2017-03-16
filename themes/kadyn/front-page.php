@@ -39,7 +39,7 @@ get_header(); ?>
                         <div class="introText introFirst">
                             <p>Hi there! My name is Kadyn, and I am a web developer. Welcome to my website, its purpose is to promote and showcase myself. I may not be a designer but I hope you enjoy your time here</p>
                         </div>
-                        <div class="introCheckout">
+                        <div class="introCheckout pulse">
                             <a href="https://github.com/Kneale95"><h2>My GitHub!</h2></a>
                         </div>
                 </div>
@@ -59,12 +59,12 @@ get_header(); ?>
                                 <li>Angular</li>
                             </ul>
                         </div>
-                        <div class="introCheckout">
+                        <div class="introCheckout pulse">
                             <a href="https://www.redacademy.com/"><h2>Check out RED!</h2></a>
                         </div>
                 </div>
            </div>
-           <img class="downArrow" src="<?php echo get_template_directory_uri()?>/assets/down_arrow.png" alt="picture of down arrow">
+           <img class="downArrow bobbing" src="<?php echo get_template_directory_uri()?>/assets/down_arrow.png" alt="picture of down arrow">
        </section>
 
        <section class="projects">
