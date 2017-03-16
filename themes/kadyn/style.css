@@ -322,6 +322,9 @@ body {
 a {
   text-decoration: none; }
 
+p {
+  color: white; }
+
 header {
   text-align: center;
   margin: 0 auto;
@@ -437,7 +440,8 @@ header .menu {
   border-radius: 10px;
   color: white; }
   .introCheckout a {
-    color: #E8DFE0; }
+    color: #E8DFE0;
+    width: 100%; }
 
 .introCheckout:hover {
   background-color: white;
@@ -492,6 +496,9 @@ header .menu {
   border: 3px solid #E8DFE0;
   height: 150px;
   margin-left: 40px; }
+  .projects .projectBody p {
+    margin-left: 10px;
+    margin-right: 10px; }
 
 .aboutMe {
   background-color: #0E0A18; }
@@ -514,8 +521,10 @@ header .menu {
   width: 50%;
   background-color: #4916F7;
   border-top: 3px solid #E8DFE0;
-  border-right: 3px solid #E8DFE0;
   border-bottom: 3px solid #E8DFE0; }
+  .bioBody p {
+    margin-left: 10px;
+    margin-right: 10px; }
 
 .contactMe {
   text-align: center;

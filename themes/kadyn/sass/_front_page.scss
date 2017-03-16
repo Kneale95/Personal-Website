@@ -7,6 +7,10 @@ a{
     text-decoration: none;
 }
 
+p{
+    color:$body_font;
+}
+
 header{
     text-align: center;
     margin: 0 auto;
@@ -145,6 +149,7 @@ header{
     color:white;
     a{
         color:$main_color_three;
+        width: 100%;
     }
 }
 
@@ -223,6 +228,10 @@ header{
         border: 3px solid $main_color_three;
         height: 150px;
         margin-left: 40px;
+        p{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
     }
 }
 //Bio
@@ -250,8 +259,11 @@ header{
     width: 50%;
     background-color: $main_color_one;
     border-top: 3px solid $main_color_three;
-    border-right: 3px solid $main_color_three;
     border-bottom: 3px solid $main_color_three;
+    p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
 }
 //Contact Me
